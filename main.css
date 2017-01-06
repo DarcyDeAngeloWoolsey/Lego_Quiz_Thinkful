@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/*general styles*/
+
+html {
+    background: rgba(0, 0, 0, 0) url("lego_star.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    height: 100vh;
+}
+
+h1,
+h3,
+ol,
+form,
+section {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #eeeeee;
+}
+
+
+/*header styles*/
+
+header h1 {
+    font-size: 2.7em;
+    padding: 20px 10px;
+}
+
+
+/*content styles*/
+
+main section {
+    width: 700px;
+    min-height: 80vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10vh 10px;
+}
+
+
+main .question .wrapper h3, main .intro .wrapper h3 {
+    font-size: 2.2em;
+    padding-top: 10vh;
+}
+
+main .results .wrapper h3 {
+    font-size: 2.2em;
+    padding-top: 5vh;
+}
+
+main section .wrapper .input {
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+
+main section .wrapper .choiceWrapper, main section .wrapper p {
+    font-size: 1.5em;
+}
+
+main section .wrapper button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 20%;
+    border-style: inset;
+    background-color: rgba(255, 255, 255, .2);
+    color: white;
+    font-weight: bold;
+}
+
+main section .wrapper button:hover {
+    border-style: outset;
+    background-color: rgba(255, 255, 255, .2);
+    color: white;
+    cursor: pointer;
+}
+
+main section .wrapper .input questionCorrectCounter {
+    margin-bottom: 10px;
+}
+
+.results .wrapper .answerWrapper h2 {
+    font-size: 1.7em;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+/*footer styles*/
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    display: inline-block;
+    margin: 0 10px;
+    padding-right: 20px;
+}
+
+footer p:last-child {
+    padding-right: 0px;
+}
+
+
+
+/*responsive styles*/
+
+@media only screen and (max-width: 960px) {
+    main section {
+    width: 100%;
+    min-height: 90vh;
+    padding: 10vh 10px 0vh 10px;
+}
+
+main section .wrapper button {
+    margin: 10px auto;
+    padding: 20px;
+    font-size: 20px;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+main .question .wrapper h3, main .intro .wrapper h3 {
+    font-size: 2.5em;
+
+main .results .wrapper h3 {
+    font-size: 2.5em;
+}
+
+main section .wrapper .choiceWrapper, main section .wrapper p {
+    font-size: 2em;
+}
+
+.results .wrapper .answerWrapper h2 {
+    font-size: 2em;
+    }
+}

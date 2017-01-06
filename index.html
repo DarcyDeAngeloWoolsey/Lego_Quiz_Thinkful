@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LEGO Challenge</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>ARE YOU A LEGO MASTER?</h1>
+    </header>
+
+    <main>
+
+        <section class="intro">
+            <div class="wrapper">
+                <h3>Take the Lego Quiz, Brick by Brick</h3>
+                <button class="start" name="start" type="button">Start</button>
+            </div>
+        </section>
+
+        <section class="question">
+            <div class="wrapper">
+                <!--<p class="correct">Correct/Incorrect</p>
+                <p class="questionsDetails">Here are the details</p>-->
+
+                <h3>Master Questions</h3>
+                <div class="choiceWrapper">
+                    <input type="radio" class="choice" name="choice" value="1"> Some choice text
+                    <br/>
+                    <input type="radio" class="choice" name="choice" value="2"> Some choice text
+                    <br/>
+                    <input type="radio" class="choice" name="choice" value="3"> Some choice text
+                    <br/>
+                    <input type="radio" class="choice" name="choice" value="4"> Some choice text
+                    <br/>
+                </div>
+                <button class="answer" name="submit" type="submit">Submit</button>
+                
+                <p class="questionCorrectCounter">You have 2/10 correct!</p>
+                <p class="questionCounter">Questions 2 / 10</p>
+            </div>
+        </section>
+
+        <section class="results">
+            <div class="wrapper">
+                <h3>Your Total Score is: <span></span></h3>
+                <div class="answerWrapper">   
+
+                </div>
+                <button class="restart" name="restart" type="button">Restart</button>
+            </div>
+        </section>
+        <footer class="">
+        <p>Designed by Darcy DeAngelo-Woolsey</p>
+        <p>dmdeangelo@gmail.com</p>
+        </footer>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
